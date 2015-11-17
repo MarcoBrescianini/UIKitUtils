@@ -10,6 +10,21 @@
 		59F522C91BFB46D3006CED35 /* UIKitUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F522C81BFB46D3006CED35 /* UIKitUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F522D01BFB46D3006CED35 /* UIKitUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F522C51BFB46D3006CED35 /* UIKitUtils.framework */; };
 		59F522D51BFB46D3006CED35 /* UIKitUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F522D41BFB46D3006CED35 /* UIKitUtilsTests.m */; };
+		59F523091BFB4786006CED35 /* ESRoundedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F522FB1BFB4786006CED35 /* ESRoundedButton.h */; };
+		59F5230A1BFB4786006CED35 /* ESRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F522FC1BFB4786006CED35 /* ESRoundedButton.m */; };
+		59F5230B1BFB4786006CED35 /* UICollectionView+ESNibCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F522FD1BFB4786006CED35 /* UICollectionView+ESNibCell.h */; };
+		59F5230C1BFB4786006CED35 /* UICollectionView+ESNibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F522FE1BFB4786006CED35 /* UICollectionView+ESNibCell.m */; };
+		59F5230D1BFB4786006CED35 /* UILabel+ESFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F522FF1BFB4786006CED35 /* UILabel+ESFont.h */; };
+		59F5230E1BFB4786006CED35 /* UILabel+ESFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F523001BFB4786006CED35 /* UILabel+ESFont.m */; };
+		59F5230F1BFB4786006CED35 /* ESBaseTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F523011BFB4786006CED35 /* ESBaseTableCell.h */; };
+		59F523101BFB4786006CED35 /* ESBaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F523021BFB4786006CED35 /* ESBaseTableCell.m */; };
+		59F523111BFB4786006CED35 /* ESRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F523031BFB4786006CED35 /* ESRatingView.m */; };
+		59F523121BFB4786006CED35 /* UITableView+ESNibCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F523041BFB4786006CED35 /* UITableView+ESNibCell.h */; };
+		59F523131BFB4786006CED35 /* UITableView+ESNibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F523051BFB4786006CED35 /* UITableView+ESNibCell.m */; };
+		59F523141BFB4786006CED35 /* ESRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F523061BFB4786006CED35 /* ESRatingView.h */; };
+		59F523151BFB4786006CED35 /* ESRoundedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F523071BFB4786006CED35 /* ESRoundedImageView.h */; };
+		59F523161BFB4786006CED35 /* ESRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F523081BFB4786006CED35 /* ESRoundedImageView.m */; };
+		C9227E32FBEA4A30CBBAA144 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C9227D7D5DA4FD4A58B2BD87 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,22 @@
 		59F522CF1BFB46D3006CED35 /* UIKitUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F522D41BFB46D3006CED35 /* UIKitUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitUtilsTests.m; sourceTree = "<group>"; };
 		59F522D61BFB46D3006CED35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F522FB1BFB4786006CED35 /* ESRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRoundedButton.h; sourceTree = "<group>"; };
+		59F522FC1BFB4786006CED35 /* ESRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESRoundedButton.m; sourceTree = "<group>"; };
+		59F522FD1BFB4786006CED35 /* UICollectionView+ESNibCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+ESNibCell.h"; sourceTree = "<group>"; };
+		59F522FE1BFB4786006CED35 /* UICollectionView+ESNibCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+ESNibCell.m"; sourceTree = "<group>"; };
+		59F522FF1BFB4786006CED35 /* UILabel+ESFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ESFont.h"; sourceTree = "<group>"; };
+		59F523001BFB4786006CED35 /* UILabel+ESFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ESFont.m"; sourceTree = "<group>"; };
+		59F523011BFB4786006CED35 /* ESBaseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBaseTableCell.h; sourceTree = "<group>"; };
+		59F523021BFB4786006CED35 /* ESBaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBaseTableCell.m; sourceTree = "<group>"; };
+		59F523031BFB4786006CED35 /* ESRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESRatingView.m; sourceTree = "<group>"; };
+		59F523041BFB4786006CED35 /* UITableView+ESNibCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ESNibCell.h"; sourceTree = "<group>"; };
+		59F523051BFB4786006CED35 /* UITableView+ESNibCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ESNibCell.m"; sourceTree = "<group>"; };
+		59F523061BFB4786006CED35 /* ESRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRatingView.h; sourceTree = "<group>"; };
+		59F523071BFB4786006CED35 /* ESRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRoundedImageView.h; sourceTree = "<group>"; };
+		59F523081BFB4786006CED35 /* ESRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESRoundedImageView.m; sourceTree = "<group>"; };
+		C9227C6914751978964569C7 /* UIKitUtils.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = UIKitUtils.podspec; sourceTree = "<group>"; };
+		C9227D7D5DA4FD4A58B2BD87 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,8 @@
 				59F522C71BFB46D3006CED35 /* UIKitUtils */,
 				59F522D31BFB46D3006CED35 /* UIKitUtilsTests */,
 				59F522C61BFB46D3006CED35 /* Products */,
+				C9227D7D5DA4FD4A58B2BD87 /* .gitignore */,
+				C9227C6914751978964569C7 /* UIKitUtils.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +104,20 @@
 		59F522C71BFB46D3006CED35 /* UIKitUtils */ = {
 			isa = PBXGroup;
 			children = (
+				59F522FB1BFB4786006CED35 /* ESRoundedButton.h */,
+				59F522FC1BFB4786006CED35 /* ESRoundedButton.m */,
+				59F522FD1BFB4786006CED35 /* UICollectionView+ESNibCell.h */,
+				59F522FE1BFB4786006CED35 /* UICollectionView+ESNibCell.m */,
+				59F522FF1BFB4786006CED35 /* UILabel+ESFont.h */,
+				59F523001BFB4786006CED35 /* UILabel+ESFont.m */,
+				59F523011BFB4786006CED35 /* ESBaseTableCell.h */,
+				59F523021BFB4786006CED35 /* ESBaseTableCell.m */,
+				59F523031BFB4786006CED35 /* ESRatingView.m */,
+				59F523041BFB4786006CED35 /* UITableView+ESNibCell.h */,
+				59F523051BFB4786006CED35 /* UITableView+ESNibCell.m */,
+				59F523061BFB4786006CED35 /* ESRatingView.h */,
+				59F523071BFB4786006CED35 /* ESRoundedImageView.h */,
+				59F523081BFB4786006CED35 /* ESRoundedImageView.m */,
 				59F522C81BFB46D3006CED35 /* UIKitUtils.h */,
 				59F522CA1BFB46D3006CED35 /* Info.plist */,
 			);
@@ -93,7 +140,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F5230F1BFB4786006CED35 /* ESBaseTableCell.h in Headers */,
+				59F523141BFB4786006CED35 /* ESRatingView.h in Headers */,
 				59F522C91BFB46D3006CED35 /* UIKitUtils.h in Headers */,
+				59F523091BFB4786006CED35 /* ESRoundedButton.h in Headers */,
+				59F5230B1BFB4786006CED35 /* UICollectionView+ESNibCell.h in Headers */,
+				59F5230D1BFB4786006CED35 /* UILabel+ESFont.h in Headers */,
+				59F523151BFB4786006CED35 /* ESRoundedImageView.h in Headers */,
+				59F523121BFB4786006CED35 /* UITableView+ESNibCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9227E32FBEA4A30CBBAA144 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F523101BFB4786006CED35 /* ESBaseTableCell.m in Sources */,
+				59F5230A1BFB4786006CED35 /* ESRoundedButton.m in Sources */,
+				59F523131BFB4786006CED35 /* UITableView+ESNibCell.m in Sources */,
+				59F523161BFB4786006CED35 /* ESRoundedImageView.m in Sources */,
+				59F5230C1BFB4786006CED35 /* UICollectionView+ESNibCell.m in Sources */,
+				59F5230E1BFB4786006CED35 /* UILabel+ESFont.m in Sources */,
+				59F523111BFB4786006CED35 /* ESRatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +374,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UIKitUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "it.engineering-solutions.UIKitUtils";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -328,6 +391,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = UIKitUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "it.engineering-solutions.UIKitUtils";
 				PRODUCT_NAME = "$(TARGET_NAME)";
